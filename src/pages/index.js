@@ -48,18 +48,31 @@ function ProjectItem(props) {
       <div className="col ProjectItem">
         <div className="row">
           <div className="col-auto ProjectItemTitle">{props.title}</div>
-          <a className="col-auto custom-link try-it-link" href={props.appLink}>
-            try it here
-          </a>
+          {props.appLink ? (
+            <a
+              className="col-auto custom-link try-it-link"
+              href={props.appLink}
+            >
+              try it here
+            </a>
+          ) : (
+            ""
+          )}
         </div>
 
-        <p className="ProjectItemBody">
-          {props.intro}
-          <br />
+        {props.github ? (
+          // <div className="row">
           <a className="custom-link" href={props.github}>
             {props.github}
           </a>
-        </p>
+        ) : (
+          // </div>
+          ""
+        )}
+        <br />
+        <br />
+
+        <p className="ProjectItemBody">{props.intro}</p>
       </div>
     </div>
   );
@@ -67,7 +80,7 @@ function ProjectItem(props) {
 
 export default function Home() {
   return (
-    <div className="container Homepage">
+    <div className="container Home">
       <Title />
       <Greet />
       <Intro />
@@ -83,6 +96,11 @@ export default function Home() {
         intro="lottery-like Dapp co-developed with ICONVIET"
         github="https://github.com/duyyudus/megaloop-lottery"
         appLink="https://megaloop.io"
+      />
+      <ProjectItem
+        title="Chainalytic"
+        intro="Modular framework for blockchain time-series data and arbitrary chain-state derivation/aggregation, which help to generate more insights of generic blockchains"
+        github="https://github.com/duyyudus/chainalytic-framework"
       />
     </div>
   );

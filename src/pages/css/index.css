@@ -4,6 +4,10 @@ html body {
   background-color: var(--primary-bg-white) !important;
 }
 
+.Home {
+  padding: 0 128px 0 128px;
+}
+
 .Title {
   font-family: Roboto;
   font-style: normal;
@@ -57,7 +61,7 @@ html body {
 
   color: var(--primary-main-3);
 
-  margin: 0 0 32px 0;
+  margin: 0 0 9px 0;
 }
 
 .ProjectItemBody {
@@ -68,7 +72,6 @@ html body {
   line-height: 30px;
 
   color: var(--primary-main-3);
-  margin: 0 0 0 32px;
 }
 
 #title-row {
@@ -95,9 +98,17 @@ html body {
   color: var(--primary-main-1);
 }
 
+.custom-link:hover {
+  color: var(--secondary-cool-3) !important;
+}
+
 .try-it-link {
   font-style: italic;
   font-weight: normal;
   font-size: 16px;
   margin: 4px 0 0 0;
+}
+
+.try-it-link:hover {
+  color: var(--secondary-cool-3) !important;
 }
