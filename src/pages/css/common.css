@@ -1,0 +1,16 @@
+:root {
+  --primary-bg-white: #fafafa;
+  --primary-main-1: #57c3d9;
+  --primary-main-3: #337380;
+  --secondary-hot-2: #e58873;
+  --secondary-hot-3: #e55939;
+  --secondary-cool-3: #36b37e;
+}
+
+.color-secondary-cool-3 {
+  color: var(--secondary-cool-3);
+}
+
+.color-secondary-hot-3 {
+  color: var(--secondary-hot-3);
+}

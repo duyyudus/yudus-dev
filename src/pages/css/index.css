@@ -1,0 +1,103 @@
+@import "common.css";
+
+html body {
+  background-color: var(--primary-bg-white) !important;
+}
+
+.Title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 32px;
+
+  color: var(--secondary-hot-2);
+}
+
+.Title:hover {
+  color: var(--secondary-hot-3) !important;
+}
+
+.Greet {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 48px;
+
+  color: var(--primary-main-3);
+}
+
+.Intro {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+
+  color: var(--primary-main-3);
+}
+
+.Project {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 48px;
+
+  color: var(--primary-main-3);
+}
+
+.ProjectItemTitle {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 32px;
+
+  color: var(--primary-main-3);
+
+  margin: 0 0 32px 0;
+}
+
+.ProjectItemBody {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+
+  color: var(--primary-main-3);
+  margin: 0 0 0 32px;
+}
+
+#title-row {
+  margin: 32px 0 64px 0;
+}
+
+#greet-row {
+  margin: 0px 0 64px 0;
+}
+
+#intro-row {
+  margin: 0 0 64px 0;
+}
+
+#project-row {
+  margin: 0 0 64px 0;
+}
+
+.project-item-row {
+  margin: 0 0 64px 0;
+}
+
+.custom-link {
+  color: var(--primary-main-1);
+}
+
+.try-it-link {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 16px;
+  margin: 4px 0 0 0;
+}
