@@ -14,5 +14,5 @@ RUN yarn build
 FROM nginx:stable-alpine
 COPY --from=build /app/public /usr/share/nginx/html
 COPY nginx/nginx.conf /etc/nginx/conf.d/default.conf
-EXPOSE 8020
+EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]
