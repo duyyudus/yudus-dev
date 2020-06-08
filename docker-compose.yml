@@ -1,0 +1,11 @@
+version: '3'
+services:
+  yudus_dev_website:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: duyyudus/yudus-dev-website
+    container_name: yudus-dev-website
+    restart: always
+    ports:
+      - 8020:8020
