@@ -6,6 +6,7 @@ ENV PATH /app/node_modules/.bin:$PATH
 RUN npm install -g gatsby-cli
 
 COPY package.json ./
+COPY yarn.lock ./
 RUN yarn install
 COPY . ./
 RUN yarn build

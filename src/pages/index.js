@@ -26,6 +26,8 @@ function Intro() {
   return (
     <div className="row" id="intro-row">
       <p className="col Intro">
+        we are interested in cross-chain Dapps, especially inter-chain gaming and NFT
+        <br />
         with experience in both gaming and blockchain space,
         <br />
         we are determined to make the best out of two worlds
