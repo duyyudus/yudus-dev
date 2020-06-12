@@ -33,6 +33,10 @@ html body {
   color: var(--primary-main-3);
 }
 
+.Greet-logo {
+  height: 96px;
+}
+
 .Intro {
   font-family: Roboto;
   font-style: normal;

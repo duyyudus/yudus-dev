@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./css/index.css";
 
@@ -16,7 +17,14 @@ function Greet() {
   return (
     <div className="row" id="greet-row">
       <div className="col Greet">
-        welcome to <span className="color-secondary-cool-3">Yudus Lab</span>
+        welcome to{" "}
+        <span className="color-secondary-cool-3">
+          <img
+            src="yudus-lab-1-small.png"
+            className="img-rounded Greet-logo"
+            alt="logo"
+          />
+        </span>
       </div>
     </div>
   );
@@ -26,7 +34,8 @@ function Intro() {
   return (
     <div className="row" id="intro-row">
       <p className="col Intro">
-        we are interested in cross-chain Dapps, especially inter-chain gaming and NFT
+        we are interested in cross-chain Dapps, especially inter-chain gaming
+        and NFT
         <br />
         <br />
         with experience in both gaming and blockchain space,
@@ -84,6 +93,11 @@ function ProjectItem(props) {
 export default function Home() {
   return (
     <div className="container Home">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Yudus Lab</title>
+        <link rel="canonical" href="https://yudus.dev" />
+      </Helmet>
       <Title />
       <Greet />
       <Intro />
