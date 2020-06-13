@@ -59,6 +59,21 @@ code {
   color: var(--primary-main-3);
 }
 
+.Contact {
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 48px;
+
+  color: var(--primary-main-3);
+}
+
+.ContactDetail {
+  font-size: 18px;
+  line-height: 30px;
+
+  color: var(--primary-main-3);
+}
+
 .ProjectItemTitle {
   font-weight: 300;
   font-size: 32px;
@@ -89,6 +104,14 @@ code {
 }
 
 #project-row {
+  margin: 0 0 64px 0;
+}
+
+#contact-row {
+  margin: 0 0 64px 0;
+}
+
+#contact-detail-row {
   margin: 0 0 64px 0;
 }
 

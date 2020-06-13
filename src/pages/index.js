@@ -34,13 +34,48 @@ function Intro() {
   return (
     <div className="row" id="intro-row">
       <p className="col Intro">
-        we are interested in cross-chain Dapps development, especially inter-chain gaming
-        and NFT
+        we are interested in cross-chain Dapps development, especially
+        inter-chain gaming and NFT
         <br />
         <br />
         with experience in both game industry and blockchain space,
         <br />
         we are determined to make the best out of two worlds
+      </p>
+    </div>
+  );
+}
+
+function Contact() {
+  return (
+    <div className="row" id="contact-row">
+      <p className="col Contact">contacts</p>
+    </div>
+  );
+}
+
+function ContactDetail() {
+  return (
+    <div className="row" id="contact-detail-row">
+      <p className="col ContactDetail">
+        <i>telegram</i> <br />
+        <a
+          className="custom-link"
+          href="https://telegram.me/duyyudus"
+          alt="Telegram"
+        >
+          https://telegram.me/duyyudus
+        </a>
+        <br />
+        <br />
+        <i>twitter</i> <br />
+        <a
+          className="custom-link"
+          href="https://twitter.com/yudus-lab"
+          alt="Twitter"
+        >
+          https://twitter.com/yudus-lab
+        </a>
       </p>
     </div>
   );
@@ -118,6 +153,8 @@ export default function Home() {
         intro="modular framework for blockchain time-series data and arbitrary chain-state derivation/aggregation, which help to generate more insights of generic blockchains"
         github="https://github.com/duyyudus/chainalytic-framework"
       />
+      <Contact />
+      <ContactDetail />
     </div>
   );
 }
