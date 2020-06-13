@@ -1,8 +1,15 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+@import url("https://fonts.googleapis.com/css?family=Comfortaa");
+@import url("https://fonts.googleapis.com/css?family=PT Mono");
 @import "common.css";
 
 html body {
+  font-family: "Montserrat";
   background-color: var(--primary-bg-white) !important;
+}
+code {
+  font-family: "PT Mono", source-code-pro, Menlo, Monaco, Consolas,
+    "Courier New", monospace;
 }
 
 .Home {
@@ -10,9 +17,7 @@ html body {
 }
 
 .Title {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
+  font-family: "Comfortaa";
   font-size: 32px;
   line-height: 32px;
 
@@ -24,8 +29,6 @@ html body {
 }
 
 .Greet {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 300;
   font-size: 48px;
   line-height: 48px;
@@ -38,9 +41,6 @@ html body {
 }
 
 .Intro {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
   font-size: 18px;
   line-height: 30px;
 
@@ -48,8 +48,6 @@ html body {
 }
 
 .Project {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 300;
   font-size: 48px;
   line-height: 48px;
@@ -58,8 +56,6 @@ html body {
 }
 
 .ProjectItemTitle {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 300;
   font-size: 32px;
   line-height: 32px;
@@ -70,9 +66,6 @@ html body {
 }
 
 .ProjectItemBody {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
   font-size: 18px;
   line-height: 30px;
 

@@ -34,11 +34,11 @@ function Intro() {
   return (
     <div className="row" id="intro-row">
       <p className="col Intro">
-        we are interested in cross-chain Dapps, especially inter-chain gaming
+        we are interested in cross-chain Dapps development, especially inter-chain gaming
         and NFT
         <br />
         <br />
-        with experience in both gaming and blockchain space,
+        with experience in both game industry and blockchain space,
         <br />
         we are determined to make the best out of two worlds
       </p>
@@ -110,13 +110,12 @@ export default function Home() {
       />
       <ProjectItem
         title="ICONVIET MEGALOOP"
-        intro="lottery-like Dapp co-developed with ICONVIET"
+        intro="an experimental lottery-like Dapp co-developed with ICONVIET"
         github="https://github.com/duyyudus/megaloop-lottery"
-        appLink="https://megaloop.io"
       />
       <ProjectItem
         title="Chainalytic"
-        intro="Modular framework for blockchain time-series data and arbitrary chain-state derivation/aggregation, which help to generate more insights of generic blockchains"
+        intro="modular framework for blockchain time-series data and arbitrary chain-state derivation/aggregation, which help to generate more insights of generic blockchains"
         github="https://github.com/duyyudus/chainalytic-framework"
       />
     </div>
