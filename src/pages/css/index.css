@@ -12,6 +12,10 @@ code {
     "Courier New", monospace;
 }
 
+.NotFound {
+  color: var(--secondary-hot-2);
+}
+
 .Home {
   padding: 0 0 0 0;
 }
