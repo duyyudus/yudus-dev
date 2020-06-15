@@ -69,8 +69,14 @@ function ContactDetail() {
   return (
     <div className="row" id="contact-detail-row">
       <p className="col ContactDetail">
-        <i>telegram</i> <br />
-        <a className="custom-link" href="https://t.me/yudus_lab" alt="Telegram">
+      <i>contact telegram</i> <br />
+        <a className="custom-link" href="https://t.me/duyyudus" alt="Telegram">
+          https://t.me/duyyudus
+        </a>
+        <br />
+        <br />
+        <i>announcement telegram</i> <br />
+        <a className="custom-link" href="https://t.me/yudus_lab" alt="Ann Telegram">
           https://t.me/yudus_lab
         </a>
         <br />
