@@ -34,13 +34,24 @@ function Intro() {
   return (
     <div className="row" id="intro-row">
       <p className="col Intro">
-        we are interested in cross-chain Dapps development, especially
-        inter-chain gaming and NFT
+        we are an inter-chain lab, interested in cross-chain Dapps development and services,
+        especially on-chain gaming and NFT
         <br />
         <br />
-        with experience in both game industry and blockchain space,
+        we are also seeking to work on open source blockchain frameworks as well
+        as limited outsourcing projects
         <br />
-        we are determined to make the best out of two worlds
+        <br />
+        with multi-disciplined experience in game industry, software development
+        and blockchain space,
+        <br />
+        we are determined to make the best out of those worlds
+        <br />
+        <br />
+        preferred blockchain ecosystems :{" "}
+        <b>
+          <i>Polkadot, Ethereum and ICON</i>
+        </b>
       </p>
     </div>
   );
@@ -59,22 +70,28 @@ function ContactDetail() {
     <div className="row" id="contact-detail-row">
       <p className="col ContactDetail">
         <i>telegram</i> <br />
-        <a
-          className="custom-link"
-          href="https://telegram.me/duyyudus"
-          alt="Telegram"
-        >
-          https://telegram.me/duyyudus
+        <a className="custom-link" href="https://t.me/yudus_lab" alt="Telegram">
+          https://t.me/yudus_lab
         </a>
         <br />
         <br />
         <i>twitter</i> <br />
         <a
           className="custom-link"
-          href="https://twitter.com/yudus-lab"
+          href="https://twitter.com/yudus_lab"
           alt="Twitter"
         >
-          https://twitter.com/yudus-lab
+          https://twitter.com/yudus_lab
+        </a>
+        <br />
+        <br />
+        <i>medium</i> <br />
+        <a
+          className="custom-link"
+          href="https://medium.com/yudus-lab"
+          alt="Medium"
+        >
+          https://medium.com/yudus-lab
         </a>
       </p>
     </div>
@@ -139,7 +156,7 @@ export default function Home() {
       <Project />
       <ProjectItem
         title="ICX Contract Explorer"
-        intro="developer-oriented explorer for smart contract development on ICON blockchain"
+        intro="responsive developer-oriented explorer for smart contract development on ICON blockchain"
         github="https://github.com/duyyudus/icx-contract-explorer"
         appLink="https://yudus.dev/icxce"
       />
