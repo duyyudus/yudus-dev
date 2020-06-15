@@ -6,8 +6,8 @@ import "./css/index.css";
 function Title() {
   return (
     <div className="row" id="title-row">
-      <a className="col Title" href="https://duyyudus.me">
-        duyyudus • dp
+      <a className="col Title" href="https://yudus.dev">
+        Yudus Lab
       </a>
     </div>
   );
