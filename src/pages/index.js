@@ -34,8 +34,8 @@ function Intro() {
   return (
     <div className="row" id="intro-row">
       <p className="col Intro">
-        we are an inter-chain lab, interested in cross-chain Dapps development and services,
-        especially on-chain gaming and NFT
+        we are an inter-chain lab, interested in cross-chain Dapps development
+        and services, especially on-chain gaming and NFT
         <br />
         <br />
         we are also seeking to work on open source blockchain frameworks as well
@@ -69,14 +69,18 @@ function ContactDetail() {
   return (
     <div className="row" id="contact-detail-row">
       <p className="col ContactDetail">
-      <i>contact telegram</i> <br />
+        <i>contact telegram</i> <br />
         <a className="custom-link" href="https://t.me/duyyudus" alt="Telegram">
           https://t.me/duyyudus
         </a>
         <br />
         <br />
         <i>announcement telegram</i> <br />
-        <a className="custom-link" href="https://t.me/yudus_lab" alt="Ann Telegram">
+        <a
+          className="custom-link"
+          href="https://t.me/yudus_lab"
+          alt="Ann Telegram"
+        >
           https://t.me/yudus_lab
         </a>
         <br />
@@ -98,6 +102,12 @@ function ContactDetail() {
           alt="Medium"
         >
           https://medium.com/yudus-lab
+        </a>
+        <br />
+        <br />
+        <i>about founder</i> <br />
+        <a className="custom-link" href="https://duyyudus.me" alt="duyyudus">
+          https://duyyudus.me
         </a>
       </p>
     </div>
