@@ -173,18 +173,18 @@ export default function Home() {
       <ProjectItem
         title="ICX Contract Explorer"
         intro="responsive developer-oriented explorer for smart contract development on ICON blockchain"
-        github="https://github.com/duyyudus/icx-contract-explorer"
+        github="https://github.com/yudus-lab/icx-contract-explorer"
         appLink="https://yudus.dev/icxce"
+      />
+      <ProjectItem
+        title="Chainalytic"
+        intro="modular framework for blockchain time-series data and arbitrary chain-state derivation/aggregation, which help to generate more insights of generic blockchains"
+        github="https://github.com/yudus-lab/chainalytic-framework"
       />
       <ProjectItem
         title="ICONVIET MEGALOOP"
         intro="an experimental lottery-like Dapp co-developed with ICONVIET"
         github="https://github.com/duyyudus/megaloop-lottery"
-      />
-      <ProjectItem
-        title="Chainalytic"
-        intro="modular framework for blockchain time-series data and arbitrary chain-state derivation/aggregation, which help to generate more insights of generic blockchains"
-        github="https://github.com/duyyudus/chainalytic-framework"
       />
       <Contact />
       <ContactDetail />
