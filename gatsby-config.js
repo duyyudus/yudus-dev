@@ -23,5 +23,11 @@ module.exports = {
         icon: `static/yudus-lab-1-short-small.png`,
       },
     },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-169204893-1",
+      },
+    },
   ],
 };
