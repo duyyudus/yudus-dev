@@ -1,0 +1,28 @@
+{
+    "representative": {
+        "logo": {
+            "logo_256": "https://yudus.dev/icons/icon-256x256.png",
+            "logo_1024": "https://yudus.dev/yudus-lab-short.png",
+            "logo_svg": "https://yudus.dev/yudus-lab-short.svg"
+        },
+        "media": {
+            "steemit": "",
+            "twitter": "https://twitter.com/yudus_lab",
+            "youtube": "",
+            "facebook": "",
+            "github": "https://github.com/yudus-lab",
+            "reddit": "",
+            "keybase": "",
+            "telegram": "https://t.me/yudus_lab",
+            "wechat": ""
+        }
+    },
+    "server": {
+        "location": {
+            "country": "Vietnam",
+            "city": "Ho Chi Minh"
+        },
+        "server_type": "",
+        "api_endpoint": ""
+    }
+}

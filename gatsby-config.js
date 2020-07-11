@@ -20,7 +20,7 @@ module.exports = {
         background_color: `#f7f0eb`,
         theme_color: `#a2466c`,
         display: `standalone`,
-        icon: `static/yudus-lab-1-short-small.png`,
+        icon: `static/yudus-lab-short.png`,
       },
     },
     {
