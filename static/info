@@ -22,7 +22,7 @@
             "country": "Vietnam",
             "city": "Ho Chi Minh"
         },
-        "server_type": "",
-        "api_endpoint": ""
+        "server_type": "cloud",
+        "api_endpoint": "node.yudus.dev:9000"
     }
 }
