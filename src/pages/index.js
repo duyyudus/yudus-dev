@@ -171,10 +171,10 @@ export default function Home() {
       <Intro />
       <Project />
       <ProjectItem
-        title="ICX Contract Explorer"
-        intro="responsive developer-oriented explorer for smart contract development on ICON blockchain"
-        github="https://github.com/yudus-lab/icx-contract-explorer"
-        appLink="https://yudus.dev/icxce"
+        title="ICX Contract Hub"
+        intro="responsive developer-oriented hub for smart contract development on ICON blockchain"
+        github="https://github.com/yudus-lab/icx-contract-hub"
+        appLink="https://yudus.dev/icontracthub"
       />
       <ProjectItem
         title="Chainalytic"

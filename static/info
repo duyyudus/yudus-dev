@@ -23,6 +23,6 @@
             "city": "Ho Chi Minh"
         },
         "server_type": "cloud",
-        "api_endpoint": "node.yudus.dev:9000"
+        "api_endpoint": "149.28.130.174:9000"
     }
 }
