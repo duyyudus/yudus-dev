@@ -6,7 +6,7 @@
 
 module.exports = {
   siteMetadata: {
-    title: `Yudus Lab`,
+    title: `Yudus Labs`,
     siteUrl: `https://yudus.dev`,
     description: `An inter-chain blockchain lab`,
   },
@@ -14,8 +14,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Yudus Lab`,
-        short_name: `Yudus Lab`,
+        name: `Yudus Labs`,
+        short_name: `Yudus Labs`,
         start_url: `/`,
         background_color: `#f7f0eb`,
         theme_color: `#a2466c`,

@@ -7,7 +7,7 @@ function Title() {
   return (
     <div className="row" id="title-row">
       <a className="col Title" href="https://yudus.dev">
-        Yudus Lab
+        Yudus Labs
       </a>
     </div>
   );
@@ -50,7 +50,7 @@ function Intro() {
         <br />
         preferred blockchain ecosystems :{" "}
         <b>
-          <i>Polkadot, Ethereum and ICON</i>
+          <i>Polkadot and Ethereum</i>
         </b>
       </p>
     </div>
@@ -78,10 +78,10 @@ function ContactDetail() {
         <i>announcement telegram</i> <br />
         <a
           className="custom-link"
-          href="https://t.me/yudus_lab"
+          href="https://t.me/yudus_labs"
           alt="Ann Telegram"
         >
-          https://t.me/yudus_lab
+          https://t.me/yudus_labs
         </a>
         <br />
         <br />
@@ -91,17 +91,17 @@ function ContactDetail() {
           href="https://twitter.com/yudus_lab"
           alt="Twitter"
         >
-          https://twitter.com/yudus_lab
+          https://twitter.com/yudus_labs
         </a>
         <br />
         <br />
         <i>medium</i> <br />
         <a
           className="custom-link"
-          href="https://medium.com/yudus-lab"
+          href="https://medium.com/yudus-labs"
           alt="Medium"
         >
-          https://medium.com/yudus-lab
+          https://medium.com/yudus-labs
         </a>
         <br />
         <br />
@@ -163,7 +163,7 @@ export default function Home() {
     <div className="container Home">
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Yudus Lab</title>
+        <title>Yudus Labs</title>
         <link rel="canonical" href="https://yudus.dev" />
       </Helmet>
       <Title />
@@ -171,15 +171,21 @@ export default function Home() {
       <Intro />
       <Project />
       <ProjectItem
+        title="Polka Index"
+        intro="watch all projects with token in Polkadot ecosystem - work in progess"
+        github="https://github.com/yudus-labs/polka-index"
+        appLink="https://yudus.dev/polkaindex"
+      />
+      <ProjectItem
         title="ICX Contract Hub"
         intro="responsive developer-oriented hub for smart contract development on ICON blockchain"
-        github="https://github.com/yudus-lab/icx-contract-hub"
+        github="https://github.com/yudus-labs/icx-contract-hub"
         appLink="https://yudus.dev/icontracthub"
       />
       <ProjectItem
         title="Chainalytic"
         intro="modular framework for blockchain time-series data and arbitrary chain-state derivation/aggregation, which help to generate more insights of generic blockchains"
-        github="https://github.com/yudus-lab/chainalytic-framework"
+        github="https://github.com/yudus-labs/chainalytic-framework"
       />
       <ProjectItem
         title="ICONVIET MEGALOOP"
