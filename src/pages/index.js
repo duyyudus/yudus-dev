@@ -52,6 +52,21 @@ function Intro() {
         <b>
           <i>Polkadot and Ethereum</i>
         </b>
+        <br />
+        <br />
+        <b>
+          by the way, if you are Vietnamese, we have a dedicated community for
+          you
+        </b>
+        <br />
+        <br />
+        • Polkadot and interchain discussion :{" "}
+        <a className="custom-link" href="https://t.me/vietnam_crosschain_talk">
+          t.me/vietnam_crosschain_talk
+        </a>
+        <br />
+        • blog for deep analysis of Polkadot ecosystem :{" "}
+        <a className="custom-link" href="https://yudus.dev/blog">yudus.dev/blog</a>
       </p>
     </div>
   );
@@ -172,7 +187,7 @@ export default function Home() {
       <Project />
       <ProjectItem
         title="Polka Index"
-        intro="watch all projects with token in Polkadot ecosystem - work in progess"
+        intro="watch all projects with token in Polkadot ecosystem - work in progress"
         github="https://github.com/yudus-labs/polka-index"
         appLink="https://yudus.dev/polkaindex"
       />
