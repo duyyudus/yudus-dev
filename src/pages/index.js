@@ -179,7 +179,6 @@ export default function Home() {
       <Helmet>
         <meta charSet="utf-8" />
         <title>Yudus Labs</title>
-        <link rel="canonical" href="https://yudus.dev" />
         <meta property="og:url" content="https://yudus.dev" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Yudus Labs" />
@@ -189,7 +188,7 @@ export default function Home() {
         />
         <meta
           property="og:image"
-          content="https://raw.githubusercontent.com/duyyudus/yudus-dev/master/static/yudus-lab-1-small.png"
+          content="https://raw.githubusercontent.com/duyyudus/yudus-dev/master/static/preview.png"
         />
       </Helmet>
       <Title />

@@ -8,7 +8,7 @@ module.exports = {
   siteMetadata: {
     title: `Yudus Labs`,
     siteUrl: `https://yudus.dev`,
-    description: `An inter-chain blockchain lab`,
+    description: `An interchain lab focused on Polkadot ecosystem`,
   },
   plugins: [
     {
@@ -29,5 +29,6 @@ module.exports = {
         trackingId: "UA-169204893-1",
       },
     },
+    `gatsby-plugin-react-helmet`,
   ],
 };
