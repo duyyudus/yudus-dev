@@ -179,6 +179,23 @@ export default function Home() {
       <Helmet>
         <meta charSet="utf-8" />
         <title>Yudus Labs</title>
+        <meta
+          name="description"
+          content="An interchain lab focused on Polkadot ecosystem"
+        />
+
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://yudus.dev/" />
+        <meta property="twitter:title" content="Yudus Labs" />
+        <meta
+          property="twitter:description"
+          content="An interchain lab focused on Polkadot ecosystem"
+        />
+        <meta
+          property="twitter:image"
+          content="https://raw.githubusercontent.com/duyyudus/yudus-dev/master/static/preview.png"
+        />
+
         <meta property="og:url" content="https://yudus.dev" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Yudus Labs" />
