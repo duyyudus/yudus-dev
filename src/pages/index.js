@@ -59,14 +59,14 @@ function Intro() {
           you
         </b>
         <br />
-        <br />
-        • Polkadot and interchain discussion :{" "}
+        <br />• Polkadot and interchain discussion :{" "}
         <a className="custom-link" href="https://t.me/vietnam_crosschain_talk">
           t.me/vietnam_crosschain_talk
         </a>
-        <br />
-        • blog for deep analysis of Polkadot ecosystem :{" "}
-        <a className="custom-link" href="https://yudus.dev/blog">yudus.dev/blog</a>
+        <br />• blog for deep analysis of Polkadot ecosystem :{" "}
+        <a className="custom-link" href="https://yudus.dev/blog">
+          yudus.dev/blog
+        </a>
       </p>
     </div>
   );
@@ -180,6 +180,17 @@ export default function Home() {
         <meta charSet="utf-8" />
         <title>Yudus Labs</title>
         <link rel="canonical" href="https://yudus.dev" />
+        <meta property="og:url" content="https://yudus.dev" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Yudus Labs" />
+        <meta
+          property="og:description"
+          content="An interchain lab focused on Polkadot ecosystem"
+        />
+        <meta
+          property="og:image"
+          content="https://raw.githubusercontent.com/duyyudus/yudus-dev/master/static/yudus-lab-1-small.png"
+        />
       </Helmet>
       <Title />
       <Greet />
@@ -187,7 +198,7 @@ export default function Home() {
       <Project />
       <ProjectItem
         title="Polka Index"
-        intro="watch all projects with token in Polkadot ecosystem - work in progress"
+        intro="keep track of tokens built on Substrate or heavily involved in Polkadot ecosystem"
         github="https://github.com/yudus-labs/polka-index"
         appLink="https://yudus.dev/polkaindex"
       />
