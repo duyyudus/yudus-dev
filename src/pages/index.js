@@ -53,20 +53,6 @@ function Intro() {
           <i>Polkadot and Ethereum</i>
         </b>
         <br />
-        <br />
-        <b>
-          by the way, if you are Vietnamese, we have a dedicated community for
-          you
-        </b>
-        <br />
-        <br />• Polkadot and interchain discussion :{" "}
-        <a className="custom-link" href="https://t.me/vietnam_crosschain_talk">
-          t.me/vietnam_crosschain_talk
-        </a>
-        <br />• blog for deep analysis of Polkadot ecosystem :{" "}
-        <a className="custom-link" href="https://yudus.dev/blog">
-          yudus.dev/blog
-        </a>
       </p>
     </div>
   );
@@ -148,7 +134,7 @@ function ProjectItem(props) {
               className="col-auto custom-link try-it-link"
               href={props.appLink}
             >
-              try it here
+              check it out
             </a>
           ) : (
             ""
@@ -212,6 +198,12 @@ export default function Home() {
       <Greet />
       <Intro />
       <Project />
+      <ProjectItem
+        title="Lambomoon Metaverse"
+        intro="experimental high-end NFT game on Moonbeam/Polkadot, powered by Unreal Engine 5 ( in progress )"
+        github="https://github.com/yudus-labs/lambomoon-metaverse"
+        appLink="https://lambomoon.xyz"
+      />
       <ProjectItem
         title="Polka Index"
         intro="keep track of tokens built on Substrate or heavily involved in Polkadot ecosystem"
