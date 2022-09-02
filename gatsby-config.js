@@ -8,7 +8,7 @@ module.exports = {
   siteMetadata: {
     title: `Yudus Labs`,
     siteUrl: `https://yudus.dev`,
-    description: `An interchain lab focused on Polkadot ecosystem`,
+    description: `A blockchain labs focused on cross-chain services`,
   },
   plugins: [
     {
@@ -17,10 +17,10 @@ module.exports = {
         name: `Yudus Labs`,
         short_name: `Yudus Labs`,
         start_url: `/`,
-        background_color: `#f7f0eb`,
-        theme_color: `#a2466c`,
+        background_color: `#E2DED0`,
+        theme_color: `#647C90`,
         display: `standalone`,
-        icon: `static/yudus-lab-short.png`,
+        icon: `static/yudus-labs-logo-v2-simple.png`,
       },
     },
     {

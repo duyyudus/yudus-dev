@@ -18,9 +18,9 @@ function Greet() {
     <div className="row" id="greet-row">
       <div className="col Greet">
         welcome to{" "}
-        <span className="color-secondary-cool-3">
+        <span className="color-secondary-3">
           <img
-            src="yudus-lab-1-small.png"
+            src="yudus-labs-logo-v2-full-transparent.png"
             className="img-rounded Greet-logo"
             alt="logo"
           />
@@ -34,12 +34,8 @@ function Intro() {
   return (
     <div className="row" id="intro-row">
       <p className="col Intro">
-        we are an inter-chain lab, interested in cross-chain Dapps development
+        we are an inter-chain team focused on cross-chain Dapps development
         and services, especially on-chain gaming and NFT
-        <br />
-        <br />
-        we are also seeking to work on open source blockchain frameworks as well
-        as limited outsourcing projects
         <br />
         <br />
         with multi-disciplined experience in game industry, software development
@@ -50,7 +46,7 @@ function Intro() {
         <br />
         preferred blockchain ecosystems :{" "}
         <b>
-          <i>Polkadot and Ethereum</i>
+          <i>Polkadot and Ethereum ( including L2s )</i>
         </b>
         <br />
       </p>
@@ -142,18 +138,19 @@ function ProjectItem(props) {
         </div>
 
         {props.github ? (
-          // <div className="row">
           <a className="custom-link" href={props.github}>
             {props.github}
+            <br />
           </a>
         ) : (
-          // </div>
           ""
         )}
         <br />
-        <br />
 
-        <p className="ProjectItemBody">{props.intro}</p>
+        <p className="ProjectItemBody">
+          <b>{props.status}</b> • {props.intro}
+        </p>
+        <img src={props.image} className="img-rounded Project-image" />
       </div>
     </div>
   );
@@ -167,7 +164,7 @@ export default function Home() {
         <title>Yudus Labs</title>
         <meta
           name="description"
-          content="An interchain lab focused on Polkadot ecosystem"
+          content="A blockchain labs focused on cross-chain services"
         />
 
         <meta property="twitter:card" content="summary_large_image" />
@@ -175,7 +172,7 @@ export default function Home() {
         <meta property="twitter:title" content="Yudus Labs" />
         <meta
           property="twitter:description"
-          content="An interchain lab focused on Polkadot ecosystem"
+          content="A blockchain labs focused on cross-chain services"
         />
         <meta
           property="twitter:image"
@@ -187,7 +184,7 @@ export default function Home() {
         <meta property="og:title" content="Yudus Labs" />
         <meta
           property="og:description"
-          content="An interchain lab focused on Polkadot ecosystem"
+          content="A blockchain labs focused on cross-chain services"
         />
         <meta
           property="og:image"
@@ -199,32 +196,53 @@ export default function Home() {
       <Intro />
       <Project />
       <ProjectItem
-        title="Lambomoon Metaverse"
-        intro="experimental high-end NFT game on Moonbeam/Polkadot, powered by Unreal Engine 5 ( in progress )"
-        github="https://github.com/yudus-labs/lambomoon-metaverse"
-        appLink="https://lambomoon.xyz"
+        title="Lamdamoon NFT"
+        status="ON HOLD"
+        intro="experimental crosschain NFT game, initially deployed on Aptos and Polkadot/Kusama"
+        github="https://github.com/yudus-labs/lamdamoon-metaverse"
+        appLink="https://lamdamoon.xyz"
+        image="lamdamoon.jpg"
       />
       <ProjectItem
-        title="Polka Index"
-        intro="keep track of tokens built on Substrate or heavily involved in Polkadot ecosystem"
-        github="https://github.com/yudus-labs/polka-index"
-        appLink="https://yudus.dev/polkaindex"
+        title="Ethereum Mage"
+        status="IN DESIGN"
+        intro="experimental cross-L2s interactive collectible on StarkNet, zkSync, Arbitrum, Optimism"
+        appLink="https://ethmage.com"
+        image="eth-mage.jpg"
       />
       <ProjectItem
-        title="ICX Contract Hub"
-        intro="responsive developer-oriented hub for smart contract development on ICON blockchain"
-        github="https://github.com/yudus-labs/icx-contract-hub"
-        appLink="https://yudus.dev/icontracthub"
+        title="Layer 0 Space"
+        status="IN RESEARCH"
+        intro="cross-consensus heterogeneous asset swap based on LayerZero messaging protocol and Polkadot XCM"
+        github="https://github.com/yudus-labs/layer0-space"
+        appLink="https://layer0.space"
+        image="layer0-space.png"
+      />
+      <ProjectItem
+        title="Coinalytic"
+        status="IN RESEARCH"
+        intro="exotic insights from on-chain data and advanced market data aggregation, first iteration will support Polkadot and Substrate-based chains"
+        appLink="https://coinalytic.xyz"
       />
       <ProjectItem
         title="Chainalytic"
+        status="DEPRECATED"
         intro="modular framework for blockchain time-series data and arbitrary chain-state derivation/aggregation, which help to generate more insights of generic blockchains"
         github="https://github.com/yudus-labs/chainalytic-framework"
+        image="chainalytic.png"
       />
       <ProjectItem
-        title="ICONVIET MEGALOOP"
-        intro="an experimental lottery-like Dapp co-developed with ICONVIET"
-        github="https://github.com/duyyudus/megaloop-lottery"
+        title="ICX Contract Hub"
+        status="UNMAINTAINED"
+        intro="a developer-oriented explorer dedicated for smart contract development on ICON blockchain network"
+        github="https://github.com/yudus-labs/icx-contract-hub"
+        image="icon-contract-hub.png"
+      />
+      <ProjectItem
+        title="Chainalytic ICON"
+        status="UNMAINTAINED"
+        intro="Chainalytic for ICON blockchain"
+        github="https://github.com/yudus-labs/chainalytic-icon"
       />
       <Contact />
       <ContactDetail />

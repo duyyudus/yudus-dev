@@ -1,11 +1,10 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat");
-@import url("https://fonts.googleapis.com/css?family=Comfortaa");
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
 @import url("https://fonts.googleapis.com/css?family=PT Mono");
 @import "common.css";
 
 html body {
-  font-family: "Montserrat";
-  background-color: var(--primary-bg-white) !important;
+  font-family: "Nunito", sans-serif;
+  background-color: var(--primary-bg) !important;
 }
 code {
   font-family: "PT Mono", source-code-pro, Menlo, Monaco, Consolas,
@@ -13,7 +12,7 @@ code {
 }
 
 .NotFound {
-  color: var(--secondary-hot-2);
+  color: var(--secondary-1);
 }
 
 .Home {
@@ -21,15 +20,15 @@ code {
 }
 
 .Title {
-  font-family: "Comfortaa";
-  font-size: 32px;
-  line-height: 32px;
+  font-family: "Nunito", sans-serif;
+  font-size: 40px;
+  line-height: 40px;
 
-  color: var(--secondary-hot-2);
+  color: var(--primary-1);
 }
 
 .Title:hover {
-  color: var(--secondary-hot-3) !important;
+  color: var(--secondary-2) !important;
 }
 
 .Greet {
@@ -37,7 +36,7 @@ code {
   font-size: 48px;
   line-height: 48px;
 
-  color: var(--primary-main-3);
+  color: var(--primary-2);
 }
 
 .Greet-logo {
@@ -48,38 +47,38 @@ code {
   font-size: 18px;
   line-height: 30px;
 
-  color: var(--primary-main-3);
+  color: var(--primary-2);
 }
 
 .Project {
   font-weight: 300;
-  font-size: 48px;
-  line-height: 48px;
+  font-size: 60px;
+  line-height: 60px;
 
-  color: var(--primary-main-3);
+  color: var(--primary-2);
 }
 
 .Contact {
   font-weight: 300;
-  font-size: 48px;
-  line-height: 48px;
+  font-size: 60px;
+  line-height: 60px;
 
-  color: var(--primary-main-3);
+  color: var(--primary-2);
 }
 
 .ContactDetail {
   font-size: 18px;
   line-height: 30px;
 
-  color: var(--primary-main-3);
+  color: var(--primary-2);
 }
 
 .ProjectItemTitle {
   font-weight: 300;
-  font-size: 32px;
-  line-height: 32px;
+  font-size: 38px;
+  line-height: 38px;
 
-  color: var(--primary-main-3);
+  color: var(--primary-2);
 
   margin: 0 0 9px 0;
 }
@@ -88,7 +87,12 @@ code {
   font-size: 18px;
   line-height: 30px;
 
-  color: var(--primary-main-3);
+  color: var(--primary-2);
+}
+
+.Project-image {
+  max-height: 100%;
+  max-width: 100%;
 }
 
 #title-row {
@@ -120,20 +124,20 @@ code {
 }
 
 .custom-link {
-  color: var(--primary-main-1);
+  color: var(--primary-1);
 }
 
 .custom-link:hover {
-  color: var(--secondary-cool-3) !important;
+  color: var(--secondary-3) !important;
 }
 
 .try-it-link {
   font-style: italic;
   font-weight: normal;
-  font-size: 16px;
-  margin: 4px 0 0 0;
+  font-size: 18px;
+  margin: 8px 0 0 0;
 }
 
 .try-it-link:hover {
-  color: var(--secondary-cool-3) !important;
+  color: var(--secondary-3) !important;
 }
