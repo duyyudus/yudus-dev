@@ -72,13 +72,13 @@ function ContactDetail() {
         </a>
         <br />
         <br />
-        <i>announcement telegram</i> <br />
+        <i>email</i> <br />
         <a
           className="custom-link"
-          href="https://t.me/yudus_labs"
-          alt="Ann Telegram"
+          href="mailto:yudus.labs@gmail.com"
+          alt="Email"
         >
-          https://t.me/yudus_labs
+          yudus.labs@gmail.com
         </a>
         <br />
         <br />
